@@ -23,6 +23,17 @@ $a = $a - 10;
 print $a.'<br />';
 $a = $a * 10 ;    
 print $a.'<br />';
+
+#constant
+define('TITLE', 'PHP Tutorial');
+echo TITLE;
+define('TITLE', 'JAVA Tutorial'); #error
+
+#variable variables
+$title = 'subject';
+$$title = 'PHP tutorial';
+echo $subject;
+
 ?>
 </body>
 </html>
